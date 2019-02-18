@@ -6,7 +6,7 @@ mkdir -p ~/.vim/bundle
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 git clone https://github.com/Valloric/YouCompleteMe ~/.vim/bundle/YouCompleteMe
 cd ~/.vim/bundle/YouCompleteMe/
-apt install -y  cmake python3-dev
+apt install -y  cmake python3-dev gcc g++
 git submodule update --init --recursive
 python3 install.py 
 
