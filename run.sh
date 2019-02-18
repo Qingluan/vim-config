@@ -1,3 +1,7 @@
+if [ -d /tmp/vim-config ];then
+  rm -rf /tmp/vim-config;
+fi
+
 git clone https://github.com/Qingluan/vim-config.git /tmp/vim-config && cd /tmp/vim-config
 
 mv vimrc ~/.vimrc 
